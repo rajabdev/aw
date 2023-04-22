@@ -1,0 +1,28 @@
+@use "~/ameliance-ui/styles/globals/" as *;
+
+.SongListItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+	min-height: 32px;
+	@include no-select;
+}
+
+.playIcon {
+	position: relative;
+	left: 1px;
+}
+
+.playing {
+	animation: play-animation 0.8s alternate linear infinite;
+}
+
+@keyframes play-animation {
+	0% {
+		background-color: var(--color--b1-1);
+	}
+	100% {
+		background-color: var(--color--b1-2);
+	}
+}

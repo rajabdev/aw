@@ -1,0 +1,32 @@
+@use "~/ameliance-ui/styles/globals/" as *;
+
+.Navbar {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	height: 56px;
+	background-color: var(--color--b1-1);
+	border-radius: 32px 32px 0 0;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	min-height: 48px;
+	height: fit-content;
+	cursor: pointer;
+	&.active {
+		background-color: var(--color--b1-2);
+		border-radius: 16px;
+		cursor: default;
+	}
+}

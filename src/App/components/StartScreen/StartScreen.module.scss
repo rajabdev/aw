@@ -1,0 +1,10 @@
+.StartScreen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	width: 100vw;
+	height: 100vh;
+	color: var(--color--f1-1);
+}

@@ -1,0 +1,23 @@
+.container {
+	position: relative;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 16px;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 0 var(--gap);
+	gap: 16px;
+}

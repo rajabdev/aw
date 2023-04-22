@@ -1,0 +1,26 @@
+.SongsSelection {
+	display: flex;
+	flex-direction: column;
+	gap: calc(var(--gap) / 2);
+}
+
+.songsGroup {
+	display: flex;
+	flex-direction: column;
+
+	.songsGroupSymbol {
+		position: sticky;
+		top: 0;
+		background-color: var(--color--b1-0);
+		padding: calc(var(--gap) / 2) 0;
+		z-index: 1;
+		user-select: none;
+	}
+}
+
+.songsNames {
+	display: flex;
+	flex-direction: column;
+	gap: calc(var(--gap) / 4);
+	contain: layout;
+}

@@ -1,0 +1,26 @@
+@use "~/ameliance-ui/styles/globals/" as *;
+
+.SelectionBar {
+	height: 56px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 200;
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	background-color: var(--color--b1-1);
+	border-radius: 32px 32px 0 0;
+	&.extended {
+		border-radius: 0;
+	}
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 8px;
+}
