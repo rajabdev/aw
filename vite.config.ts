@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react-swc';
 import eslint from 'vite-plugin-eslint';
 
 export default defineConfig({
-		base: '/aw/',
-		plugins: [react(), eslint()],
+	plugins: [react(), eslint()],
+	base: '/aw/',
 		css: {
 			devSourcemap: true
 		},
