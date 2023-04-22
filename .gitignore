@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-.env
-secrets.json
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -25,17 +22,3 @@ secrets.json
 *.njsproj
 *.sln
 *.sw?
-
-#amelianceskymusic own modules
-*.-asm-*
--asm-*
-__-asm-*
-
-*._legacy*
-_legacy*
-
-*._backup*
-_backup*
-
-*._temp*
-_temp*
